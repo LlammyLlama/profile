@@ -1,0 +1,67 @@
+body {
+  background-color: #F5F0BB;
+}
+
+h1{
+  font-family: 'Roboto Serif', serif;
+  color:#73A9AD;
+  font-size: 30px;
+  text-align: center;
+  line-height: normal;
+  padding: 5%;
+}
+
+p, li {
+  font-family: ;
+  color:#73A9AD;
+  font-size: 20px;
+}
+
+h2 {
+  color:#73A9AD;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: xx-large;
+  text-align: justify;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 25%;
+  border: 2px solid  #90C8AC;
+}
+
+.card-dotted {
+  border-style: dashed;
+  border-color: #90C8AC;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25px;
+  width: 500px;
+  margin: 25px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 540px;
+  }
+}
